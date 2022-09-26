@@ -15,11 +15,13 @@ Colores :
 
 */
 body{
-    background-color: #2d3436;
+    background-color: #000000;
 }
 .unTexto{
     background-color: gray;
     color: white;
+    width: 25%;
+    height: 40vh; /*viewheigt*/
 }
 button{
     background-color: brown;
@@ -29,4 +31,7 @@ button{
 }
 h1{
     color: #ff7675;
+}
+.bordeAzul{
+    border: blue 2px dotted;
 }
