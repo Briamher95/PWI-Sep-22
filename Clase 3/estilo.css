@@ -1,0 +1,32 @@
+/*  ESTRUCTURA CSS
+selector{
+    propiedades
+}
+Tipo de selectores:
+
+-etiquetas
+-class ----> punto y el nombre de la clase
+-id -> # + nombredelId
+
+Colores : 
+
+- Armados por CSS
+- Hexadecimal -> 0 a 9 o A-F
+
+*/
+body{
+    background-color: #2d3436;
+}
+.unTexto{
+    background-color: gray;
+    color: white;
+}
+button{
+    background-color: brown;
+}
+#botonRaro{
+    background-color:aquamarine ;
+}
+h1{
+    color: #ff7675;
+}
