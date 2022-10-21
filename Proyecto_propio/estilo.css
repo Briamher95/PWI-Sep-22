@@ -1,0 +1,57 @@
+*{
+    font-family: 'Passion One', cursive;}
+
+    
+
+body{
+     background-image: url(./segundo\ fondo.jpg) ;
+}
+h1{
+    color: black;
+    text-align: center;
+    padding: 20px 25px;
+    margin: 50px auto;
+    width: fit-content;
+    font-size: 10em;
+    text-shadow: 5px 5px whitesmoke,
+                 7px 7px black;
+    border: 2px solid white;
+    box-shadow: 5px 5px 10px yellow,
+                -5px -5px 10px whitesmoke;               
+}
+ul{
+    list-style-type: none;
+
+}
+.item-menu{
+    display: inline;
+    background-color: black;
+    color: yellow;
+    padding: 10px;
+}
+.info{
+    margin: auto;
+}
+
+p{
+    float: left;
+    position: relative;
+}
+p span{
+    position: absolute;
+right: 0;   
+width: 0;
+border-left: 2px solid black;
+background-image: url(./segundo\ fondo.jpg);
+background-attachment: fixed;
+animation: maquina 5s alternate steps(117);
+}
+
+@keyframes maquina {
+    from {
+        width: 100%;
+    }
+    to {
+        width: 0%;
+    }
+}
